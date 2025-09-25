@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: `/test/frontend`,
+  basePath: `/test`,
   output: "export",
   reactStrictMode: true,
 };
