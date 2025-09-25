@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
-const repoName = "test-front";
+const repoName = "test";
 const nextConfig: NextConfig = {
+  basePath: `/test/frontend`,
   output: "export",
   reactStrictMode: true,
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
 };
 
 export default nextConfig;
